@@ -143,5 +143,7 @@ public class CodeService {
         "### Code Block Delimiter";
     private static final String SOURCE_CODE_NOT_FOUND =
         "### Source File Not Found";
+    private static final String SOURCE_CODE_SORRY_FOUND =
+        "I"m sorry";
 
 }
