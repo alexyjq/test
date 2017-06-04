@@ -65,6 +65,7 @@ public class Module extends AbstractModule {
         bind(BackEndThreads.class).asEagerSingleton();
         bind(Dependencies.class).asEagerSingleton();
         bind(CacheTimeout.class).asEagerSingleton();
+        
         install(new FactoryModuleBuilder().implement(Markdown.class, MarkdownModel.class)
                                           .build(MarkdownModelFactory.class));
     }
